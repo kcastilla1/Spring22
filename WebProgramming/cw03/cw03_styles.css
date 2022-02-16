@@ -1,0 +1,39 @@
+/* CSS Styles for CW03 (example.html) */
+
+header {
+	text-align: center;
+}
+
+main {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+#left_column {
+	flex-basis: 33%;
+}
+
+#right_column {
+	flex-basis: 67%;
+}
+
+#mowgli {
+	float: right;
+	width: 200px;
+}
+
+#p_belowmowgli {
+	clear: both;
+}
+
+.columns {
+	padding: 2em;
+	margin: 2em;
+	border: 4px red dashed;
+}
+
+#last_p {
+	position: fixed;
+}
