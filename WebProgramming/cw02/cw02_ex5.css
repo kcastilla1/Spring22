@@ -1,0 +1,47 @@
+/* Stylesheet for CW02, Exercise 5 */
+
+#song_5 {
+	font-size:14pt; 
+	font-family:arial; 
+	font-weight:normal; 
+	color:khaki;
+}
+
+#artist_5 {
+	font-size:14pt; 
+	font-family:arial; 
+	font-weight:bold, 
+	color:moccasin;
+}
+
+#album_5 {
+	font-size:12pt; 
+	font-family:arial; 
+	color:khaki;
+}
+
+#year_5 {
+	font-size:12pt; 
+	font-family:arial; 
+	font-weight:bold; 
+	color:ivory
+}
+
+.verse_5 {
+	font-size:14pt; 
+	font-family:trebuchet ms; 
+	font-weight:bold; 
+	color:gold; 
+	margin-left:2cm; 
+	margin-right:2cm
+}
+
+.chorus_5 {
+	font-size:14pt; 
+	font-family:trebuchet ms; 
+	font-weight:bold; 
+	font-style:italic; 
+	color:gold; 
+	margin-left:4cm; 
+	margin-right:4cm
+}

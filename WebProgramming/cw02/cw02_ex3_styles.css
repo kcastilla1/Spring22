@@ -1,0 +1,18 @@
+/* Style for CW02, Exercise 3*/
+
+.ex3_h1 {
+	color: red;
+	margin-left: 2cm;
+}
+
+.ex3_h2 {
+	color: red;
+	margin-left: 4cm;
+}
+
+.ex3_p {
+	text-indent: 2cm;
+	color: darkred;
+	margin-left: 6cm;
+}
+

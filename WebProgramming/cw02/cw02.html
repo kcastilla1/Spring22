@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<!-- WebPro Spring 2022 -->
+<!-- Author: Kendall Castilla --> 
+<!-- Date: 01/31/2022 -->
+
+
+<head>
+	<title>CW02 Working With CSS Part 1</title>
+	<link rel="stylesheet" href="./cw02_ex3_styles.css">
+	<link rel="stylesheet" href="./cw02_ex5_styles.css">
+	<style>
+		#ex2-div {border:3px outset gray; 
+			background-color:lightblue;
+			text-align:center;}
+
+		#ex3-div {border:1px outset slategray; 
+			background-color:lightgoldenrodyellow;}
+		.ex3-h1 {color:red; margin-left:2cm;}
+		.ex3-h2 {color:red; margin-left:4cm;}
+		.ex3-p {text-indent:2cm; color:darkred; margin-left:6cm;}
+
+		#ex4-div {border:1px outset palegoldenrod; background-color:chocolate;}
+		#song-4 {font-size:14pt; font-family:arial; font-weight:normal; color:khaki;}
+		#artist-4 {font-size:14pt; font-family:arial; font-weight:bold, color:moccasin;}
+		#album-4 {font-size:12pt; font-family:arial; color:khaki;}
+		#year-4 {font-size:12pt; font-family:arial; font-weight:bold; color:ivory}
+		.verse-4 {font-size:14pt; font-family:trebuchet ms; font-weight:bold; color:gold; margin-left:2cm; margin-right:2cm}
+		.chorus-4 {font-size:14pt; font-family:trebuchet ms; font-weight:bold; font-style:italic; color:gold; margin-left:4cm; margin-right:4cm}
+
+		#ex6-div {border:2px outset steelblue; background-color:powderblue; font-family:sans-serif;}
+
+	</style>
+</head>
+
+<body>
+	<h1> CW 02 </h1>
+
+	<h2>Exercise 1</h2>
+	<p style="text-indent:2cm; color:darkred;">
+		This paragraph has been formatted using the in-line style command. 
+	</p>
+	<p>
+		This paragraph has not been formatted using the in-line style command. 
+	</p>
+
+	<h2>Exercise 2</h2>
+	<div id="ex2-div">
+		<h>Div in Exercise 2</h>
+		<p>The deliberate mistake is the single, opening quotation mark before the font-family property's value. It is not necessary, and it is also left open.</p>
+	</div>
+
+	<h2>Exercise 3</h2>
+	<div id="ex3-div">
+		<h1 style="color:red; margin-left:2cm">h1 heading</h1>
+		<h2 style="color:red; margin-left:4cm">h2 subheading</h2>
+		<p style="text-indent:2cm; color:darkred;margin-left:6cm">Paragraph 1</p> 
+		<p style="text-indent:2cm; color:darkred;margin-left:6cm">Paragraph 2</p> 
+		<h2 style="color:red; margin-left:4cm">h2 subheading</h2>
+		<p style="text-indent:2cm;color:darkred;margin-left:6cm">Paragraph 1</p>
+
+		<h1 class="ex3-h1">h1 heading</h1>
+		<h2 class="ex3-h2">h2 subheading</h2>
+		<p class="ex3-p">Paragraph 1</p> 
+		<p class="ex3-p">Paragraph 2</p> 
+		<h2 class="ex3-h2">h2 subheading</h2>
+		<p class="ex3-p">Paragraph 1</p>
+
+		<h1 class="ex3_h1">h1 heading</h1>
+		<h2 class="ex3_h2">h2 subheading</h2>
+		<p class="ex3_p">Paragraph 1</p> 
+		<p class="ex3_p">Paragraph 2</p> 
+		<h2 class="ex3_h2">h2 subheading</h2>
+		<p class="ex3_p">Paragraph 1</p>
+	</div>
+
+	<h2>Exercise 4</h2>
+	<div id="ex4-div" bgcolor="chocolate">
+		<h1 id="song-4">Melt My Heart to Stone</h1>
+		<h2 id="artist-4">Adele</h2>
+		<h2 id="album-4">19</h2>
+		<h2 id="year-4">2008</h2>
+		<p class="verse-4">
+			Right under my feet is air made of bricks<br>That pulls me down and turns me weak for you<br>I find myself repeating like a broken tune
+			And I'm forever excusing your intentions<br>Then, I give in to my pretendings<br>Which forgive you each time<br>Without me knowing<br>They melt my heart to stone
+		</p>
+		<p class="chorus-4">
+			And I hear your words that I made up<br>You say my name like there could be an us<br>I best tidy up my head, I'm the only one in love<br>
+			I'm the only one in love
+		</p>
+		<p class="verse-4">
+			Each and every time I turn around to leave<br>I feel my heart begin to burst and bleed<br>So, desperately, I try to link it with my head<br>
+			But instead, I fall back to my knees<br>As you tear your way right through me<br>I forgive you once again<br>Without me knowing<br>
+			You've burnt my heart to stone
+		</p>
+		<p class="chorus-4">
+			And I hear your words that I made up<br>You say my name like there could be an us<br>I best tidy up my head, I'm the only one in love<br>
+			I'm the only one in love
+		</p>
+		<p class="verse-4">
+			Why do you steal my hand<br>Whenever I'm standing my own ground?<br>You build me up and leave me there
+		</p>
+		<p class="chorus-4">
+			Well, I hear your words you made up<br>I say your name like there should be an us<br>I best tidy up my head, I'm the only one<br>In love, I'm the only one in love
+	</div>
+
+	<h2>Exercise 5</h2>
+	<div style="background-color:chocolate">
+		<h1 id="song_5">Melt My Heart to Stone</h1>
+		<h2 id="artist_5">Adele</h2>
+		<h2 id="album_5">19</h2>
+		<h2 id="year_5">2008</h2>
+		<p class="verse_5">
+			Right under my feet is air made of bricks<br>That pulls me down and turns me weak for you<br>I find myself repeating like a broken tune
+			And I'm forever excusing your intentions<br>Then, I give in to my pretendings<br>Which forgive you each time<br>Without me knowing<br>They melt my heart to stone
+		</p>
+		<p class="chorus_5">
+			And I hear your words that I made up<br>You say my name like there could be an us<br>I best tidy up my head, I'm the only one in love<br>
+			I'm the only one in love
+		</p>
+		<p class="verse_5">
+			Each and every time I turn around to leave<br>I feel my heart begin to burst and bleed<br>So, desperately, I try to link it with my head<br>
+			But instead, I fall back to my knees<br>As you tear your way right through me<br>I forgive you once again<br>Without me knowing<br>
+			You've burnt my heart to stone
+		</p>
+		<p class="chorus_5">
+			And I hear your words that I made up<br>You say my name like there could be an us<br>I best tidy up my head, I'm the only one in love<br>
+			I'm the only one in love
+		</p>
+		<p class="verse_5">
+			Why do you steal my hand<br>Whenever I'm standing my own ground?<br>You build me up and leave me there
+		</p>
+		<p class="chorus_5">
+			Well, I hear your words you made up<br>I say your name like there should be an us<br>I best tidy up my head, I'm the only one<br>In love, I'm the only one in love
+	</div>
+
+	<div id="ex6-div">
+		<h1 style="text-align:center">Exercise 6</h1>
+		<p style="font-style:italic; margin-left: 1cm;">I would use an external CSS Stylesheet because it reduces redundancy and makes the HTML code less dense. Editing one attribute in the CSS sheet can impact the appearance of the entire page in multiple sections, and that is something worth taking advantage of.</p>
+		<ul style="line-height:150%">
+			<lh style="font-weight:bold;">Tags and Classes to Use for the Website</lh>
+			<li>Head -- <em>Allows for implementation of an external CSS Stylesheet, among other styling options. Also the home of the title.</em></li>
+			<li>Hyperlink: a (color:lightcoral) -- <em>Useful for links related to the school. The color stands out, drawing users to the link.</em></li>
+			<li>Body: body (background-color:powderblue) -- <em>This color is easy on the eyes without being too boring.</em></li>
+			<li>Headings: h1, h2 (font-weight:bold) -- <em>Helps identify different sections of the page.</em></li>
+			<li>Paragraph: p -- <em>Easy to use for descriptions in different sections of the page.</em></li>
+			<li>Div (border:1px outset darkgray) -- <em>The thin border makes boundaries between sections clear, while keeping the focus on the content.</em></li>
+			<li>Table (width:60%; border:2pt solid black; background-color:floralwhite; text-align:center) -- <em>Scheduling content is important, so it's fine if it takes up most of the width of the page. The background color is a good contrast with the border color and doesn't take away from the focus, which is the content.</em></li>
+			<li>Exam selections: list of buttons (font-family:verdana; text-align:left) -- <em>Readability is important in exams.</em></li>
+			<li>Exam question numbers: h3 (font-weight:bold) -- <em>It is also important to separate each question, so having a class for exam questions is helpful.</em></li>
+			<li>Departments: p (font-weight:bold) -- <em>In menus and lists, departments are what people often look for when browsing school websites.</em></li>
+		</ul>
+	</div>
+</body>
+
+</html>
